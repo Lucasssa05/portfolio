@@ -1,99 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio Aulas de Full Stack</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <header>
-      <h1>Lucas Sampaio Serra Almeida</h1>
-      <nav>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#habilidades">Habilidades</a></li>
-          <li><a href="#educacao">Educação</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+        <h1>Lucas Sampaio</h1>
     </header>
-
-    <section id="sobre">
-      <img src="profile.jpg" alt="Minha Foto" class="profile-pic" />
-      <p>
-        Sou um estudante de Engenharia da Computação, apaixonado por
-        desenvolvimento de software, inteligência artificial e tecnologia em
-        geral. Busco sempre aprender novas habilidades e trabalhar em projetos
-        inovadores.
-      </p>
+    
+    <nav>
+        <a href="#about">Sobre</a>
+        <a href="#skills">Conhecimentos</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <div class="about">
+            <img src="profile.jpg" alt="minha foto">
+            <div class="about-text">
+                <p>Olá! Meu nome é Lucas, sou estudante de Engenharia da Computação. Sou apaixonado por tecnologia, programação e desenvolvimento de soluções inovadoras.</p>
+                
+            </div>
+        </div>
     </section>
-
-    <section id="habilidades">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>Inglês</li>
-        <li>Pacotes Office</li>
-        <li>Fullstack</li>
-      </ul>
+    
+    <section id="skills">
+        <h2>Conhecimentos</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <p>Experiência no desenvolvimento de páginas web responsivas utilizando HTML5 e CSS3.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Conhecimento em JavaScript para desenvolvimento front-end e implementação de funcionalidades dinâmicas.</p>
+            </div>
+            <div class="skill">
+                <h3>C++</h3>
+                <p>Experiência com programação em C++ em estruturas de dados.</p>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <p>Conhecimento em Python para automação e análise de dados.</p>
+            </div>
+            <div class="skill">
+                <h3>Banco de Dados</h3>
+                <p>Familiaridade com sistemas de banco de dados relacionais (MySQL) e NoSQL (MongoDB).</p>
+            </div>
+        </div>
     </section>
-
-    <section id="educacao">
-      <h2>Histórico educacional</h2>
-      <h3>Senai Cimatec</h3>
-      <p>
-        Engenharia da Computação<br />Agosto/2022 - Dezembro/2027 (previsão de
-        conclusão)
-      </p>
-      <h3>Sartre Seb</h3>
-      <p>Ensino Médio<br />Formação em Dezembro/2021</p>
-      <h3>New Nation Escola de Idiomas</h3>
-      <p>Cursando aulas particulares de inglês</p>
+    
+    <section id="projects">
+      <h2>Projetos</h2>
+      <div class="projects">
+          <div class="project">
+              <h3>Ticket-generator</h3>
+              <a href="https://ticket-generator-flame.vercel.app/" target="_blank" class="project-link">Ver Projeto</a>
+          </div>
+          <div class="project">
+              <h3>Age-calculator</h3>
+              <a href="https://age-calculator-3b4v.vercel.app/" target="_blank" class="project-link">Ver Projeto</a>
+          </div>
+          <div class="project">
+              <h3>Estatisticas-futebol</h3>
+              <a href="https://estatisticas-futebol.vercel.app/" target="_blank" class="project-link">Ver Projeto</a>
+          </div>
+      </div>
+  </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Para entrar em contato comigo:</p>
+        <div class="contact-links">
+            <a href="https://github.com/Lucasssa05" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/lucas-sampaio-23a971251/" target="_blank">LinkedIn</a>
+            <div class="email-container">
+              <button id="email-button" class="email-btn">E-mail</button>
+              <div class="email-card" id="email-card">
+                  lucas.s.almeida@aln.senaicimatec.edu.br
+              </div>
+          </div>
+      </div>
     </section>
-
-    <section id="contato">
-      <h2>Contato</h2>
-      <p>Email: lucas.s.almeida@aln.senaicimatec.edu.br</p>
-      <p>
-        LinkedIn:
-        <a
-          href="https://www.linkedin.com/in/lucas-sampaio-23a971251/"
-          target="_blank"
-          >Lucas Sampaio</a
-        >
-      </p>
-      <p>
-        GitHub:
-        <a href="https://github.com/Lucasssa05" target="_blank"
-          >github.com/Lucasssa05</a
-        >
-      </p>
-    </section>
-
+    
     <footer>
-      <p>&copy; 2025 Lucas Sampaio Serra Almeida</p>
+        <p>&copy; 2025 [Lucas Sampaio Serra Almeida] - Estudante de Engenharia da Computação</p>
     </footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const headerHeight = document.querySelector("header").offsetHeight;
-
-        document.querySelectorAll("nav a").forEach(function (anchor) {
-          anchor.addEventListener("click", function (event) {
-            event.preventDefault();
-            const targetId = this.getAttribute("href").substring(1);
-            const targetElement = document.getElementById(targetId);
-
-            if (targetElement) {
-              window.scrollTo({
-                top: targetElement.offsetTop - headerHeight - 10,
-                behavior: "smooth",
-              });
-            }
-          });
-        });
-      });
-    </script>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
